@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pruned_red">#FF0000</color>
+    <color name="completed_green">#00FF00</color>
+    <color name="background_light_amber">#FFEEAA</color>
+    <color name="todo_light_amber">#FFDF33</color>
+    <color name="amber">#FFBF00</color>
+    <color name="title_color">#333333</color>
+    <color name="desc_color">#AA333333</color>
+</resources>

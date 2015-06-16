@@ -1,0 +1,46 @@
+Task:1
+Title:Get My Life Together Demo
+Desc:A Sample By Matt Lesicko
+Trigger:2,3
+
+Task:2
+Title:Study For The Film Final
+Desc:Maybe I can turn that C into a B.
+Trigger:4
+Prune:3
+
+Task:3
+Title:Go To Irene's Party
+Desc:It'll probably my last chance to say goodbye to Lizzie.
+Trigger:4
+Prune:2
+
+Task:4
+Title:Take My Last Final
+Desc:The last one ever forever. Until grad school.
+Trigger:5,6,7
+
+Task:5
+Title:Pack
+Desc:Put everything into little boxes. Maybe not so little.
+Trigger:8
+
+Task:6
+Title:Hit up the party in the duplex
+Desc:Get smashed like the adult I am.
+Trigger:8
+
+Task:7
+Title:Break up with David
+Desc:Long distance never works.
+Trigger:8
+
+Block:8
+Count:3
+Trigger:9
+
+Task:9
+Title:Graduate
+Desc:Here we finally are.
+Color:teal
+Checkbox:false

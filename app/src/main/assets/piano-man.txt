@@ -1,0 +1,293 @@
+SaveCompleted:true
+
+Task:1
+Title:How Well Do You Know The Lyrics To Billy Joel's 'Piano Man'?
+Desc:A Clickhole article implemented as a demo.
+Trigger:2
+
+Task:2
+Desc:It’s nine o’clock on a Saturday
+Trigger:3,4,5,6
+
+Task:3
+Desc:The world’s only wizard shuffles in.
+Trigger:7
+Prune:4,5,6
+
+Task:4
+Desc:The ghost of the man I killed shuffles in.
+Trigger:7
+Prune:3,5,6
+
+Task:5
+Desc:The cruel-hearted gang of chefs who have been harassing my family shuffles in.
+Trigger:7
+Prune:3,4,6
+
+Task:6
+Desc:The man who recently went to jail for taking his shirt off at the president’s funeral shuffles in.
+Trigger:7
+Prune:3,4,5
+
+Task:7
+Desc:There’s an old man sitting next to me
+Trigger:8,9,10,11
+
+Task:8
+Desc:Making love to his wife and his older, smarter wife
+Trigger:12,13,14,15
+Prune:9,10,11
+
+Task:9
+Desc:Making love to his least favorite baseball player and his favorite baseball player
+Trigger:12,13,14,15
+Prune:8,10,11
+
+Task:10
+Desc:Making love to his neighbor’s car and cackling while his neighbor screams, ‘Stop fucking my car!’
+Trigger:12,13,14,15
+Prune:8,9,11
+
+Task:11
+Desc:Making love to his own dead body from the future and shouting, ‘I’m getting paid for this!’
+Trigger:12,13,14,15
+Prune:8,9,10
+
+Task:12
+Desc:He says, ‘Son can you believe that the world’s only wizard is here?
+Trigger:12b
+Prune:13,14,15
+
+Task:12b
+Desc:I’m not really sure how he’ll feel about this, but I’m going to ask him to use his magic to turn me into steam.
+Trigger:16
+
+Task:13
+Desc:He says, ‘Son can you explain to me why these violent chefs are calling you The Enemy of Dough?
+Trigger:13b
+Prune:12,14,15
+
+Task:13b
+Desc:I’m not really sure how chefs can be so angry, but I’m guessing you must have done something pretty terrible to dough.
+Trigger:16
+
+Task:14
+Desc:He says, ‘Son can you throw me into the ocean?
+Trigger:14b
+Prune:13,12,15
+
+Task:14b
+Desc:I’m not really sure how I’m going to do it, but I want to train a shark to tell me in perfect English that my poetry is terrible.
+Trigger:16
+
+Task:15
+Desc:He says, ‘Son can you talk to animals?
+Trigger:15b
+Prune:13,14,12
+
+Task:15b
+Desc:I’m not really sure how else to tell my dog that I’m stronger than he is.
+Trigger:16
+
+Task:16
+Desc:Sing us a song, you’re the piano man
+Trigger:17,18,19,20
+
+Task:17
+Desc:Sing us a song you’re the piano man
+Trigger:21,22,23,24
+Prune:18,19,20
+
+Task:18
+Desc:Sing us a song about the joys of shoplifting during wartime
+Trigger:21,22,23,24
+Prune:17,19,20
+
+Task:19
+Desc:Sing us a song about two dogs doing it while my house burns down
+Trigger:21,22,23,24
+Prune:17,18,20
+
+Task:20
+Desc:Sing us a song about women who get paid to blow kisses to melting wax replicas of themselves
+Trigger:21,22,23,24
+Prune:17,18,19
+
+Task:21
+Desc:Now John at the bar is a genius
+Trigger:21a
+Prune:22,23,24
+
+Task:21a
+Desc:He gets me my son’s baby teeth back from the New York Mets locker room for free.
+Trigger:25,26,27,28
+
+Task:22
+Desc:Now John at the bar is a stern negotiator
+Trigger:22a
+Prune:21,23,24
+
+Task:22a
+Desc:He gets me my nephew’s skeleton back from the pawn shop for free.
+Trigger:25,26,27,28
+
+Task:23
+Desc:Now John at the bar is a hero
+Trigger:23a
+Prune:21,22,24
+
+Task:23a
+Desc:He gets me my father’s skull back from its display case at the Museum of Divorced Men for free.
+Trigger:25,26,27,28
+
+Task:24
+Desc:Now John at the bar is a real pal
+Trigger:24a
+Prune:21,22,23
+
+Task:24a
+Desc:He gets me my brother’s bottom half back from the witch for free.
+Trigger:25,26,27,28
+
+Task:25
+Desc:He says, ‘Bill, I believe in God. God is killing me’
+Trigger:29
+Prune:26,27,28
+
+Task:26
+Desc:He says, ‘Bill, I believe my wild ambition to swallow a Corvette with my applauding family inside of it is killing me’
+Trigger:29
+Prune:25,27,28
+
+Task:27
+Desc:He says, ‘Bill, I believe my ongoing quest to get bit by a rattlesnake in all 50 states is killing me’
+Trigger:29
+Prune:25,26,28
+
+Task:28
+Desc:He says, ‘Bill, I believe the hole that doctors inserted into my stomach so that married couples could look through it and wave to each other is killing me’
+Trigger:29
+Prune:25,26,27
+
+Task:29
+Desc:As a smile ran away from his face.
+Trigger:30
+
+Task:30
+Desc:Now Paul is a real estate novelist
+Trigger:31,32,33,34
+
+Task:31
+Desc:Who never had the gorgeous display of colorful neck feathers necessary for a wife.
+Trigger:35
+Prune:32,33,34
+
+Task:32
+Desc:Who never had room in the snake-filled terrarium he sleeps in for a wife.
+Trigger:35
+Prune:31,33,34
+
+Task:33
+Desc:Who never had stopped operating under the impression that you were allowed to trade in bags of your old baby teeth at any public library in exchange for a wife.
+Trigger:35
+Prune:31,32,34
+
+Task:34
+Desc:Who never had anything other than a cow’s skull with the word ‘Wife’ written on it for a wife.
+Trigger:35
+Prune:31,32,33
+
+Task:35
+Desc:And the waitress is practicing politics
+Trigger:36,37,38,39
+
+Task:36
+Desc:As the businessmen slowly get smaller and smaller while their heads stay the same size.
+Trigger:40
+Prune:37,38,39
+
+Task:37
+Desc:As the businessmen slowly get herded into the ocean by a sheepdog.
+Trigger:40
+Prune:36,38,39
+
+Task:38
+Desc:As the businessmen slowly get turned into steam by the world’s only wizard.
+Trigger:40
+Prune:36,37,39
+
+Task:39
+Desc:As the businessmen slowly get excited for a bloodbath as the furious chefs surround me and start shouting, ‘Kill him! Kill The Enemy of Dough!’.
+Trigger:40
+Prune:36,37,38
+
+Task:40
+Desc:It’s a pretty good crowd for a Saturday
+Trigger:41,42,43,44
+
+Task:41
+Desc:And the manager gives me a children’s menu
+Trigger:41a
+Prune:42,43,44
+
+Task:41a
+Desc:’Cause he knows that it’s adult men reading aloud from the children’s menu they’ve been coming to see
+Trigger:45
+
+Task:42
+Desc:And the manager gives me a painting of Jesus losing to Darth Vader in an arm-wrestling match
+Trigger:42a
+Prune:41,43,44
+
+Task:42a
+Desc:’Cause he knows that it’s my world-class collection of art depicting Jesus doing badly at sports they’ve been coming to see
+Trigger:45
+
+Task:43
+Desc:And the manager gives me a goodbye kiss
+Trigger:43a
+Prune:41,42,44
+
+Task:43a
+Desc:’Cause he knows that it’s the gruesome spectacle of 1,000 vindictive chefs murdering me for my crimes against dough they’ve been coming to see
+Trigger:45
+
+Task:44
+Desc:And the manager gives me a Batman costume
+Trigger:44a
+Prune:41,42,43
+
+Task:44a
+Desc:’Cause he knows that it’s a show where a man in a Batman costume yells, ‘I’m not the real Batman!’ for six hours they’ve been coming to see
+Trigger:45
+
+Task:45
+Desc:To forget about life for a while.
+Trigger:46,47,48,49
+
+Task:46
+Desc:And whatever’s happening inside of my father’s coffin sounds like a carnival!
+Trigger:50
+Prune:47,48,49
+
+Task:47
+Desc:And the final shriek of the world’s only wizard as he gets eaten alive by ants sounds like a carnival!
+Trigger:50
+Prune:46,48,49
+
+Task:48
+Desc:And the word ‘barnival’ sounds like a carnival!
+Trigger:50
+Prune:46,47,49
+
+Task:49
+Desc:And as the vengeful chefs force-feed me so much dough that I explode, the noise that my body makes as it bursts apart like a wet bomb sounds like a carnival!
+Trigger:50
+Prune:46,47,48
+
+Task:50
+Desc:And the microphone smells like a beer!
+Trigger:51
+
+Task:51
+Title:That's it! Wow! You really know Billy Joel's 'Piano Man'!
